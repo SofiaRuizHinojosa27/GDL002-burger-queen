@@ -20,8 +20,33 @@ body{
 .Nav-menu{
   background-color: grey;
   align-items: center;
+  justify-content: center;
   padding: 1%;
+  height: auto;
+}
 
+.btn{
+  font-family: inherit;
+  font-size: 2rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  margin-top: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: orange;
+  border:0.16em solid rgba(255,255,255,0);
+  border-radius: 1rem;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-weight:400;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  border-color: olive;
 }
 
 .card{
@@ -32,14 +57,14 @@ body{
 }
 
 
-.containerBreakfast {
+.containerFood {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
 }
 
 @media all and (max-width: 800px) {
-  .containerBreakfast {
+  .containerFood {
     /* When on medium sized screens, we center it by evenly distributing empty space around items */
     justify-content: space-around;
   }
@@ -47,7 +72,7 @@ body{
 
 /* Small screens */
 @media all and (max-width: 500px) {
-  .containerBreakfast {
+  .containerFood {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
   }

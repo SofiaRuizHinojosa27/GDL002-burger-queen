@@ -1,9 +1,13 @@
 import React, {Component} from 'react';
 import NoteForm from './NoteForm';
+import Button from './Button';
+import Notes from './Notes';
+import '../App.css';
 
 
 
-class Orders extends Component {
+
+export class Waiter extends Component {
   constructor(props){
   super(props);
   this.state= {
@@ -26,7 +30,21 @@ class Orders extends Component {
 
 render() {
   return(
-    <div className="menuContainer">
+    <div className="App">
+    <header className="App-header">
+        <h1 className="display-1">
+          BURGUER QUEEN <i className="fas fa-hamburger"></i>
+        </h1>
+    </header>
+
+    <div className="Nav-menu">
+      <nav className= "navbar navbar-dark bg-dark">
+      <a className="btn btn-lg" href="./Kitchen">Kitchen</a>
+      <a className="btn btn-lg" href="./">Home</a>
+      </nav>
+    </div>
+
+    <div className="containerFood">
 
       <div className="menuBreakfast">
       {this.state.breakfast.map(item =>{
@@ -34,9 +52,9 @@ render() {
           <div className="card-group" key={item.itemId}>
             <div className="card" key={item.itemId}>
               <div className="card-body">
-               <h5 className="card-title" key={item.itemId}>{item.item}</h5>
+               <h5 className="card-title" key={item.itemI}>{item.item}</h5>
                <p className="card-text">Precio ${item.price}</p>
-               <button className="btn btn-primary" onClick= {()=> this.addNote(item.itemId)}>Agregar</button>
+               <button className="btn btn-primary" onClick= {()=>this.handleRemove()}>Agregar</button>
               </div>
             </div>
           </div>
@@ -52,17 +70,18 @@ render() {
               <div className="card-body">
                <h5 className="card-title" key={item.itemI}>{item.item}</h5>
                <p className="card-text">Precio ${item.price}</p>
-               <button className="btn btn-primary" onClick= {()=> this.addNote(item.itemId)}>Agregar</button>
+               <button className="btn btn-primary" onClick= {()=>this.removeNote()}>Agregar</button>
               </div>
             </div>
           </div>
           )
         })}
-      </div>
-
-    </div>
+     </div>
+     <div className="ordersContainer"><Notes/></div>
+     </div>
+     </div>
   );
 };
 };
 
-export default Orders;
+export default Waiter;
