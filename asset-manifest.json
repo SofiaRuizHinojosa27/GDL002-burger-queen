@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/burguer-queen/static/css/main.08ee50d4.chunk.css",
-    "main.js": "/burguer-queen/static/js/main.a39f895b.chunk.js",
-    "main.js.map": "/burguer-queen/static/js/main.a39f895b.chunk.js.map",
-    "runtime~main.js": "/burguer-queen/static/js/runtime~main.36f0585b.js",
-    "runtime~main.js.map": "/burguer-queen/static/js/runtime~main.36f0585b.js.map",
-    "static/js/2.2d349570.chunk.js": "/burguer-queen/static/js/2.2d349570.chunk.js",
-    "static/js/2.2d349570.chunk.js.map": "/burguer-queen/static/js/2.2d349570.chunk.js.map",
-    "index.html": "/burguer-queen/index.html",
-    "precache-manifest.d4b5ce5edbb2c02949db2197f493dec8.js": "/burguer-queen/precache-manifest.d4b5ce5edbb2c02949db2197f493dec8.js",
-    "service-worker.js": "/burguer-queen/service-worker.js",
-    "static/css/main.08ee50d4.chunk.css.map": "/burguer-queen/static/css/main.08ee50d4.chunk.css.map",
-    "static/media/logo2.jpg": "/burguer-queen/static/media/logo2.b41ba097.jpg"
+    "main.css": "/burger-queen/static/css/main.08ee50d4.chunk.css",
+    "main.js": "/burger-queen/static/js/main.d36d36ab.chunk.js",
+    "main.js.map": "/burger-queen/static/js/main.d36d36ab.chunk.js.map",
+    "runtime~main.js": "/burger-queen/static/js/runtime~main.69216d2c.js",
+    "runtime~main.js.map": "/burger-queen/static/js/runtime~main.69216d2c.js.map",
+    "static/js/2.153d796b.chunk.js": "/burger-queen/static/js/2.153d796b.chunk.js",
+    "static/js/2.153d796b.chunk.js.map": "/burger-queen/static/js/2.153d796b.chunk.js.map",
+    "index.html": "/burger-queen/index.html",
+    "precache-manifest.1fc23b6803bdaa1578137c0ddddf7752.js": "/burger-queen/precache-manifest.1fc23b6803bdaa1578137c0ddddf7752.js",
+    "service-worker.js": "/burger-queen/service-worker.js",
+    "static/css/main.08ee50d4.chunk.css.map": "/burger-queen/static/css/main.08ee50d4.chunk.css.map",
+    "static/media/logo2.jpg": "/burger-queen/static/media/logo2.b41ba097.jpg"
   }
 }
