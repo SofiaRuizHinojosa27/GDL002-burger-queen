@@ -9,10 +9,6 @@ addNote(){
   this.textInput.value="";
 }
 
-// removeNote(noteId){
-//   this.props.removeNote(noteId);
-// }
-
 render(){
   return (
     <div className="NoteForm">

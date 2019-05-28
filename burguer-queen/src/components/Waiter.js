@@ -54,7 +54,7 @@ render() {
               <div className="card-body">
                <h5 className="card-title" key={item.itemI}>{item.item}</h5>
                <p className="card-text">Precio ${item.price}</p>
-               <button className="btn btn-primary" onClick= {()=>this.handleRemove()}>Agregar</button>
+               <button className="btn btn-sm" onClick= {()=>this.handleRemove()}>Agregar</button>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@ render() {
               <div className="card-body">
                <h5 className="card-title" key={item.itemI}>{item.item}</h5>
                <p className="card-text">Precio ${item.price}</p>
-               <button className="btn btn-primary" onClick= {()=>this.removeNote()}>Agregar</button>
+               <button className="btn btn-primary btn-sm" onClick= {()=>this.removeNote()}>Agregar</button>
               </div>
             </div>
           </div>

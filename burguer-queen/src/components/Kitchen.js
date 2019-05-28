@@ -45,38 +45,6 @@ render() {
     </div>
 
     <div className="containerFood">
-
-      <div className="menuBreakfast">
-      {this.state.breakfast.map(item =>{
-      return(
-          <div className="card-group" key={item.itemId}>
-            <div className="card" key={item.itemId}>
-              <div className="card-body">
-               <h5 className="card-title" key={item.itemI}>{item.item}</h5>
-               <p className="card-text">Precio ${item.price}</p>
-               <button className="btn btn-primary" onClick= {()=>this.handleRemove()}>Agregar</button>
-              </div>
-            </div>
-          </div>
-          )
-        })}
-      </div>
-
-      <div className="mealFood">
-      {this.state.mealFood.map(item =>{
-      return(
-          <div className="card-group" key={item.itemId}>
-            <div className="card" key={item.itemId}>
-              <div className="card-body">
-               <h5 className="card-title" key={item.itemI}>{item.item}</h5>
-               <p className="card-text">Precio ${item.price}</p>
-               <button className="btn btn-primary" onClick= {()=>this.removeNote()}>Agregar</button>
-              </div>
-            </div>
-          </div>
-          )
-        })}
-     </div>
      <div className="ordersContainer"><Notes/></div>
      </div>
      </div>
