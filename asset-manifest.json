@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/burguer-queen/static/css/main.2cce8147.chunk.css",
-    "main.js": "/burguer-queen/static/js/main.57808cbb.chunk.js",
-    "main.js.map": "/burguer-queen/static/js/main.57808cbb.chunk.js.map",
+    "main.css": "/burguer-queen/static/css/main.08ee50d4.chunk.css",
+    "main.js": "/burguer-queen/static/js/main.a39f895b.chunk.js",
+    "main.js.map": "/burguer-queen/static/js/main.a39f895b.chunk.js.map",
     "runtime~main.js": "/burguer-queen/static/js/runtime~main.36f0585b.js",
     "runtime~main.js.map": "/burguer-queen/static/js/runtime~main.36f0585b.js.map",
-    "static/js/2.b41502e9.chunk.js": "/burguer-queen/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/burguer-queen/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.2d349570.chunk.js": "/burguer-queen/static/js/2.2d349570.chunk.js",
+    "static/js/2.2d349570.chunk.js.map": "/burguer-queen/static/js/2.2d349570.chunk.js.map",
     "index.html": "/burguer-queen/index.html",
-    "precache-manifest.0ef1311f92ab1445231357488282a433.js": "/burguer-queen/precache-manifest.0ef1311f92ab1445231357488282a433.js",
+    "precache-manifest.d4b5ce5edbb2c02949db2197f493dec8.js": "/burguer-queen/precache-manifest.d4b5ce5edbb2c02949db2197f493dec8.js",
     "service-worker.js": "/burguer-queen/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/burguer-queen/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/burguer-queen/static/media/logo.5d5d9eef.svg"
+    "static/css/main.08ee50d4.chunk.css.map": "/burguer-queen/static/css/main.08ee50d4.chunk.css.map",
+    "static/media/logo2.jpg": "/burguer-queen/static/media/logo2.b41ba097.jpg"
   }
 }
