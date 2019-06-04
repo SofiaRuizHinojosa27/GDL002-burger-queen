@@ -1,6 +1,8 @@
 import React  from 'react';
 import '../App.css';
-import imgWelcome  from  '../logo2.jpg'
+import imgWelcome  from  '../logo2.jpg';
+import { Link } from "react-router-dom";
+
 
 export const Home = () => {
 
@@ -14,14 +16,14 @@ export const Home = () => {
 
     <div className="Nav-menu">
       <nav className="navbar navbar-dark bg-dark">
-         <a className="btn btn-lg" href="./Waiter">Waiter</a>
-         <a className="btn btn-lg" href="./Kitchen">Kitchen</a>
+         <Link to="/Waiter" className="btn btn-lg"> Waiter </Link>
+         <Link to="/Kitchen" className="btn btn-lg"> Kitchen </Link>
       </nav>
     </div>
 
 
    <div className="Welcome">
-   <img src={imgWelcome} className="img-fluid"/>
+   <img src={imgWelcome} className="img-fluid" alt="welcome"/>
    </div>
   </div>
 );

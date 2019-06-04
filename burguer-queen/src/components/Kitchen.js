@@ -3,6 +3,7 @@ import NoteForm from './NoteForm';
 import Button from './Button';
 import Notes from './Notes';
 import '../App.css';
+import { Link } from "react-router-dom";
 
 
 
@@ -30,7 +31,7 @@ export class Kitchen extends Component {
 
 render() {
   return(
-    <div className="App">
+    <div>
     <header className="App-header">
         <h1 className="display-1">
           BURGUER QUEEN <i className="fas fa-hamburger"></i>
@@ -39,8 +40,8 @@ render() {
 
     <div className="Nav-menu">
       <nav className= "navbar navbar-dark bg-dark">
-      <a className="btn btn-lg" href="./Waiter">Waiter</a>
-      <a className="btn btn-lg" href="./">Home</a>
+      <Link  className="btn btn-lg" to="/Waiter"> Waiter </Link>
+      <Link className="btn btn-lg" to="/"> Home </Link>
       </nav>
     </div>
 

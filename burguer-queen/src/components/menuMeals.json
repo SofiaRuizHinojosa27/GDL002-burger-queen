@@ -1,0 +1,12 @@
+{
+      "menuMeals":[
+        {"item": "Hamburguesa sencilla","price": 10},
+        {"item": "Hamburguesa doble","price": 15},
+        {"item": "Papas a la francesa","price": 5},
+        {"item": "Aros de cebolla","price": 5},
+        {"item": "Refresco 500/ml","price": 7},
+        {"item": "Refresco 750/ml","price": 10},
+        {"item": "Agua 500/ml","price": 5},
+        {"item": "Agua 750/ml","price": 7}
+      ]
+}

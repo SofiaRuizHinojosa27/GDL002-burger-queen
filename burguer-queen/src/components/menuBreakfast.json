@@ -1,0 +1,10 @@
+ {
+  "menuBreakfast":[
+    {"itemId": 1,"item": "Cafe americano","price": 5},
+    {"itemId": 2,"item": "Cafe con leche","price": 7},
+    {"itemId": 3,"item": "Sandwich de jamón y queso","price": 10},
+    {"itemId": 4,"item": "Jugo de frutas natural", "price": 7},
+    {"itemId": 5,"item": "Chilaquiles verdes o rojos", "price": 10},
+    {"itemId": 6,"item": "Molletes", "price": 12}
+  ]
+}
